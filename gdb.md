@@ -1,23 +1,24 @@
 # My Wiki for GDB
 
 ## Most common commands
-- `backtrace`   --shows all functions called until current point
-    - AKA stack trace
+- backtrace [StackTrace]            Shows all functions called until current point
+- run                   (or r)      Starts the program being debugged.
+- next      [step Over] (or n)      Executes the next line of code, stepping over functions.
+- step      [step over] (or s)      Executes the next line of code, stepping into functions.
+- continue              (or c)      Resumes execution until the program stops or a breakpoint is hit.
+- quit                  (or q)      Exits GDB.
 
-- `next`        -- skips to next command in current file
-    - AKA step over
+### Break Points
+- break                 (or b)      Sets a breakpoint at a specified location.
+- info breakpoints      (or i b)    Lists all active breakpoints.
+- delete breakpoints    (or d b)    Deletes a breakpoint.
 
-- `step`        -- steps into the current command or over if not a function
-    - AKA step into
+### See Variables or Command Info
+- display <expression>              Displayed value of expression at breakpoints
+- list                  (or l)      Displays the source code around the current line.
+- watch                 (or w)      Sets a watchpoint on an expression.
+- x                     (examine)   Examines memory at a specific address.
 
-- `cuntinue`    -- continues the run after a breakpoints
-
-- `display <expression>` -- displayed value of expression at breakpoints
-
-- print
-    - `print <var>`   -- prints variables in current scope
-    - `print locals`  -- prints every var in local scope
-        - `set print pretty`
-        - `set print elements <num>` -- the number of elements in an array to print
-        - `set print addrase`        -- prints the memory address of with values
-        - ....
+- print                 (or p)      Prints the value of an expression.
+    - `print <var>`                 Prints variables in current scope
+    - `print locals`                Prints every var in local scope
