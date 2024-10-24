@@ -5,3 +5,5 @@
 
 ## core dump size
 `ulimit -c 8`
+- or
+`ulimit -c unlimited`
