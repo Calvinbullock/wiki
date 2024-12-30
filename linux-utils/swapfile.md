@@ -4,10 +4,10 @@
 ## Create the swapfile
 - `sudo dd if=/dev/zero of=/swapfile bs=1M count=1024` -- create a 1MB swapfile at root
 - `sudo chmod 600 /swapfile` -- set the correct permissions for the swapfile
-- `sudo mkswap / swapfile`   -- sets /swapfile to actually be a swapfile
+- `sudo mkswap /swapfile`   -- sets /swapfile to actually be a swapfile
 
 ## Enable the swap file
-- `sudo swapon / swapfile`   -- turn on swap (should get no output if works)
+- `sudo swapon /swapfile`   -- turn on swap (should get no output if works)
 - `swapon --show`            -- double check swapfile is setup -- if desired
 
 ## Set up the system config
