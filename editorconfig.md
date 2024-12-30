@@ -3,7 +3,7 @@
 - add configuration in this structure
 ```
     root = true
-    
+
     [*]
     end_of_line = lf
     insert_final_newline = true
