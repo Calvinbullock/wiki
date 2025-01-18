@@ -3,7 +3,7 @@
 Design metrics for programming as coined by Professor Helfitch (one of my BYU-I professors)
 
 ## Efficiency
-- ...
+- Algorithmic efficiency is how algorithm execution time is related to input size.
     - O(1)        Constant    Performance is unrelated to the amount of input into the algorithm
     - O(log n)    Logarithmic Performance is a log of the amount of input into the algorithm
     - O(n)        Linear      Performance is directly related to amount of input into the algorithm
@@ -12,7 +12,7 @@ Design metrics for programming as coined by Professor Helfitch (one of my BYU-I 
     - O(2n)       2-to-the-N  Performance is really bad
 
 ## Understandability
-- Understandability is a measure of how easy it is for a programmer to form a valid mental model of a segment of code
+- Understandability is a measure of how easy it is for a programmer to form a valid mental model of a segment of code.
     - Obvious         - There is no room for confusion or interpretation.
     - Straightforward - Everything is clearly stated; there is no subtlety.
     - Deducible       - All required information is present.
@@ -102,10 +102,12 @@ Design metrics for programming as coined by Professor Helfitch (one of my BYU-I 
     - Critical - Siblings have duplicate attributes or operations.
     - Redundant - Multiple instances of redundancy exist in the tree.
 
-## malubility
+## Malleability
 - Malleability is a measure of how easy it is for a programmer to make changes to a system.
     - Configurable - Big changes can be made without altering any code, mostly through modification of configuration files.
     - Data-driven  - Many behavior changes can be made without changing program logic.
     - Adjustable   - Most updates do not alter the structure of the program and without altering much code.
     - Refactorable - Refactoring and redesigns are required for most nontrivial updates and changes.
     - Prohibitive  - Changes are so difficult that it is easier to start over than to change the code.
+
+
