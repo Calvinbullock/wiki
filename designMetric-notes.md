@@ -2,6 +2,15 @@
 # Metrics
 Design metrics for programming as coined by Professor Helfitch (one of my BYU-I professors)
 
+## Efficiency
+- ...
+    - O(1)        Constant    Performance is unrelated to the amount of input into the algorithm
+    - O(log n)    Logarithmic Performance is a log of the amount of input into the algorithm
+    - O(n)        Linear      Performance is directly related to amount of input into the algorithm
+    - O(n log n)  N-Log-N     Performance is linear times logarithmic
+    - O(n2)       N-Squared   Performance is the square of the amount of input into the algorithm
+    - O(2n)       2-to-the-N  Performance is really bad
+
 ## Maintainability
 - Perfective Maintenance
     - Improvements and enhancements that do not change initial functionality.
