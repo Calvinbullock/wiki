@@ -11,6 +11,14 @@ Design metrics for programming as coined by Professor Helfitch (one of my BYU-I 
     - O(n2)       N-Squared   Performance is the square of the amount of input into the algorithm
     - O(2n)       2-to-the-N  Performance is really bad
 
+## Understandability
+- Understandability is a measure of how easy it is for a programmer to form a valid mental model of a segment of code
+    - Obvious         - There is no room for confusion or interpretation.
+    - Straightforward - Everything is clearly stated; there is no subtlety.
+    - Deducible       - All required information is present.
+    - Misleading      - An invalid mental model is suggested.
+    - Puzzling        - Substantial effort is required to figure things out.
+
 ## Maintainability
 - Perfective Maintenance
     - Improvements and enhancements that do not change initial functionality.
@@ -95,4 +103,9 @@ Design metrics for programming as coined by Professor Helfitch (one of my BYU-I 
     - Redundant - Multiple instances of redundancy exist in the tree.
 
 ## malubility
-- malubility
+- Malleability is a measure of how easy it is for a programmer to make changes to a system.
+    - Configurable - Big changes can be made without altering any code, mostly through modification of configuration files.
+    - Data-driven  - Many behavior changes can be made without changing program logic.
+    - Adjustable   - Most updates do not alter the structure of the program and without altering much code.
+    - Refactorable - Refactoring and redesigns are required for most nontrivial updates and changes.
+    - Prohibitive  - Changes are so difficult that it is easier to start over than to change the code.
