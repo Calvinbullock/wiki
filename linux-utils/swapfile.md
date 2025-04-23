@@ -2,7 +2,7 @@
 
 # Steps to set up the swapfile
 ## Create the swapfile
-- `sudo dd if=/dev/zero of=/swapfile bs=1M count=1024` -- create a 1MB swapfile at root
+- `sudo dd if=/dev/zero of=/swapfile bs=1M count=1024` -- create a 1MB swapfile at root (only change the count=num)
 - `sudo chmod 600 /swapfile` -- set the correct permissions for the swapfile
 - `sudo mkswap /swapfile`   -- sets /swapfile to actually be a swapfile
 
