@@ -1,7 +1,7 @@
 # make an editorconfig file
 - name the file `.editorconfig` and place it in the root of the project
 - add configuration in this structure
-```
+```bash
     root = true
 
     [*]
