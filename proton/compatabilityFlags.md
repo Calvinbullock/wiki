@@ -8,7 +8,7 @@
 ### log
 - `PROTON_LOG=1 %command%` set steam to create game log file
     - log locations:
-        - native  - `/home/johndoe/steam-221410.log` 
-        - snap    - `~/snap/steam/common/` 
+        - native  - `/home/johndoe/steam-221410.log`
+        - snap    - `~/snap/steam/common/`
         - flatpak - `~/.var/app/com.valvesoftware.Steam/`
 
