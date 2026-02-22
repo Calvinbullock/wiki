@@ -1,3 +1,6 @@
+# Usfull videos for brushup
+- [Doing This (Almost) GUARANTEES You Get Hired In A Job Interview!] - (https://www.youtube.com/watch?v=0siE31sqz0Q) 
+
 # Questions Form or For Interviews
 
 ## Winco dev
