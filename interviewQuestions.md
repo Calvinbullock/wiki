@@ -1,5 +1,5 @@
 # Usfull videos for brushup
-- [Doing This (Almost) GUARANTEES You Get Hired In A Job Interview!] - (https://www.youtube.com/watch?v=0siE31sqz0Q) 
+- [Doing This (Almost) GUARANTEES You Get Hired In A Job Interview!] - (https://www.youtube.com/watch?v=0siE31sqz0Q)
 
 # Questions Form or For Interviews
 
@@ -33,3 +33,8 @@
 
 - What is a project your proud of or struggled with?
     - I am proud of the fact that I am trusted to get the job done. There are several times when I have been put into a role I am not rrained for but have been trusted to get done when short handed. My  manager knows that I can and will get things done and do them as efficiently as I can with the skills and knowledge I currently posses.
+    - *time tracer* exit / enter conditions
+        - math invulved
+        - api calls -- unconventional calls / checks 
+        - time past since last check (internal clock thing)
+        - inaccurate data
