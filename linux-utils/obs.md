@@ -23,4 +23,9 @@
 | Profile |	high |
 
 
+## Bitrate / frames
+- Go to Settings > Output > Recording.
+- Change Rate Control from CQP to VBR (Variable Bitrate).
+- Set Target Bitrate to 15,000 Kbps.
+- Set Max Bitrate to 25,000 Kbps.
 
